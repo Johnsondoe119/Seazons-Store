@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seazons Wear</title>
+    <!-- CSS LINKS start here -->
+    <link rel="stylesheet" href="seazons.css" />
+    <!-- text links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"></a><img src="images/szns2.png" alt="" />
+
+      <ul class="navmenu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-icon">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#"><i class="bx bx-user"></i></a>
+        <a href="#"><i class="bx bx-cart"></i></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <div class="hero-image">
+      <section class="hidden">
+        <div class="intro">
+          <img src="images/main2.png" alt="" />
+          <h2>"Feelings Change. People Change."</h2>
+        </div>
+      </section>
+    </div>
+
+    <section class="hidden">
+      <div class="about">
+        <h1>About</h1>
+
+        <p>
+          "Our mission is to inspire people to embrace change and express their
+          evolving sense of self through fashion. We believe that the way we
+          dress can be a powerful tool for personal transformation and growth.
+          Our clothing is designed to be versatile, comfortable, and expressive,
+          allowing individuals to adapt and evolve with ease. As a brand, we
+          strive to create a safe and inclusive space for people to explore
+          their identities and connect with others who share their values. We
+          are committed to sustainability and ethical practices, recognizing
+          that our choices have a global impact. Through our brand, we hope to
+          empower people to feel confident, comfortable, and empowered to
+          embrace the changes that life brings."
+        </p>
+      </div>
+    </section>
+
+    <section class="hidden">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="images2/slide1.jpeg" style="width: 100%" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="/images2/3.jpeg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="/images2/slide4.jpeg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="/images2/slide5.jpeg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="/images2/slide6.jpeg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="/images2/slide7.jpeg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 7</div>
+          <img src="/images2/slide 8.jpeg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"
+          ><img src="images2/pre.png" alt=""
+        /></a>
+        <a class="next" onclick="plusSlides(1)"
+          ><img src="images2/next.png" alt=""
+        /></a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>About Us</h2>
+            <a href="#">Blog</a>
+            <a href="#">Demo</a>
+            <a href="#">Customer</a>
+            <a href="#">Investors</a>
+            <a href="#">Terms of Service</a>
+          </div>
+          <div class="footer-heading footer-2">
+            <h2>Contact Us</h2>
+            <a href="#">Jobs</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Sponsors</a>
+          </div>
+          <div class="footer-heading footer-2">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">facebooke</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+          </div>
+          <div class="footer-email-form">
+            <h2>Join our Newsletter</h2>
+            <input
+              type="email"
+              placeholder="Enter your email adress"
+              id="footer-email"
+            />
+            <input type="submit" value="sign up" id="footer-email-btn" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="seazons.js"></script>
+  </body>
+</html>
