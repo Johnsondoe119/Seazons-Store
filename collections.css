@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-  /* have to find more information on scroll behavior */
   scroll-behavior: smooth;
   font-family: "League Spartan", sans-serif;
   /* Also find more info on list style */
