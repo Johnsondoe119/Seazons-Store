@@ -10,7 +10,6 @@
   /* more info */
   text-decoration: none;
 }
-
 /* Hero Image */
 .hero-image {
   z-index: 1;
@@ -23,7 +22,6 @@
   position: relative;
   top: 0;
 }
-
 .intro {
   margin-top: 0;
   display: flex;
@@ -40,8 +38,6 @@
 .intro h3 {
   padding: 10px;
 }
-
-/*  */
 .hidden {
   opacity: 0;
   filter: blur(2px);
@@ -52,9 +48,7 @@
   filter: blur(0);
 }
 /* Hero Image */
-
 /* Product */
-
 .product-grid {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +57,6 @@
   text-align: center;
   gap: 20px;
 }
-
 .product {
   flex-basis: calc(25% - 20px);
   display: flex;
@@ -74,7 +67,6 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 .product-image {
   height: 200px;
   display: flex;
@@ -82,7 +74,6 @@
   align-items: center;
   margin-bottom: 10px;
 }
-
 .product-image img {
   width: 100%;
   height: 100%;
@@ -92,9 +83,7 @@
   border-radius: 7%;
   width: 35%;
 }
-
 /* Product */
-
 /* Start of Header */
 header {
   position: absolute;
@@ -103,7 +92,6 @@ header {
   top: 0;
   right: 0;
   background: linear-gradient(-135deg, rgb(24, 2, 217) 0%, rgb(248, 136, 229));
-
   /* find more info */
   z-index: 1000;
   display: flex;
@@ -114,7 +102,6 @@ header {
   /* border-radius: ; add rounded border */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /*add background shadow */
 }
-
 /* logo edit */
 .logo img {
   max-width: 120px;
@@ -165,9 +152,7 @@ header {
   transform: lightblue;
 }
 /* End of Navbar */
-
 /* Footer */
-
 .footer-container {
   background: linear-gradient(-135deg, rgb(24, 2, 217) 0%, rgb(248, 136, 229));
   padding-bottom: 4rem;
@@ -183,28 +168,23 @@ header {
   flex-wrap: wrap;
   margin: 0 auto;
 }
-
 .footer-heading {
   display: flex;
   flex-direction: column;
   margin-right: 4rem;
 }
-
 .footer-heading h2 {
   margin-bottom: 2rem;
 }
-
 .footer-heading a {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
-
 .footer-heading a:hover {
   color: lightblue;
   transition: 0.3s ease-out;
 }
-
 #footer-email {
   width: 250px;
   height: 40px;
@@ -215,7 +195,6 @@ header {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-
 #footer-email-btn {
   width: 100px;
   height: 40px;
@@ -231,11 +210,8 @@ header {
   background-color: skyblue;
   transition: all 0.4s ease-out;
 }
-
 /* footer end */
-
 /* Media Quary */
-
 /* Phones */
 @media only screen and (max-width: 480px) {
   * {
@@ -250,28 +226,22 @@ header {
     /* more info */
     text-decoration: none;
   }
-
   /* Hero Image */
   .hero-image {
     height: 50vh;
   }
-
   .intro {
     min-height: 50vh;
   }
-
   .intro h3 {
     font-size: 24px;
     padding: 5px;
   }
-
   /* Product */
-
   .product-grid {
     justify-content: center;
     gap: 10px;
   }
-
   .product {
     flex-basis: 100%;
     border: none;
@@ -279,23 +249,18 @@ header {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-
   .product-image {
     height: 150px;
     margin-bottom: 5px;
   }
-
   .product-image img {
     object-fit: contain;
   }
-
   .btn {
     width: 50%;
     margin: 10px auto;
   }
-
   /* Start of Header */
-
   header {
     height: 8vh;
     padding: 10px 5%;
@@ -318,7 +283,6 @@ header {
     flex-wrap: wrap;
     flex-direction: column;
   }
-
   /* logo edit */
   .logo img {
     max-width: 100px;
@@ -342,50 +306,39 @@ header {
     right: 2rem;
     transition: 0.4s linear;
   }
-
   /* navbar */
-
   .nav-icon {
     display: flex;
     align-items: center;
   }
-
   .nav-icon i {
     margin-right: 10px;
     font-size: 20px;
   }
-
   /* Might take this fake hamburger menu out */
   #menu-icon {
     display: block;
   }
-
   /* End of Navbar */
-
   /* Footer */
-
   .footer {
     height: auto;
     flex-direction: column;
     align-items: center;
   }
-
   .footer-heading {
     margin-right: 0;
     margin-bottom: 1rem;
     text-align: center;
   }
-
   .footer-heading h2 {
     font-size: 24px;
     margin-bottom: 1rem;
   }
-
   .footer-heading a {
     display: block;
     margin-bottom: 0.5rem;
   }
-
   #footer-email {
     width: 100%;
     margin-bottom: 10px;
