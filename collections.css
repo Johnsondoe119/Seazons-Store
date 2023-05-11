@@ -3,15 +3,15 @@
   padding: 0;
   scroll-behavior: smooth;
   font-family: "League Spartan", sans-serif;
-  /* Also find more info on list style */
+  /*Also find more info on list style*/
   list-style: none;
-  /* more info */
+  /*more info*/
   text-decoration: none;
 }
-/* Hero Image */
+/*Hero Image*/
 .hero-image {
   z-index: 1;
-  /* height: 100vh; */
+  /*height: 100vh;*/
   background-image: url(/images/Purple.jpeg);
   border-radius: 2.5%;
   width: 100%;
@@ -26,9 +26,7 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-content: center;
   align-items: center;
-  display: grid;
   place-items: center;
   align-content: center;
   min-height: 100vh;
@@ -45,8 +43,8 @@
   opacity: 1;
   filter: blur(0);
 }
-/* Hero Image */
-/* Product */
+/* Hero Image*/
+/*Product*/
 .product-grid {
   display: flex;
   flex-wrap: wrap;
@@ -81,8 +79,8 @@
   border-radius: 7%;
   width: 35%;
 }
-/* Product */
-/* Start of Header */
+/*Product*/
+/*Start of Header*/
 header {
   position: absolute;
   width: 100%;
@@ -90,17 +88,17 @@ header {
   top: 0;
   right: 0;
   background: linear-gradient(-135deg, rgb(24, 2, 217) 0%, rgb(248, 136, 229));
-  /* find more info */
+  /*find more info*/
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 10%;
-  /* add background color */
-  /* border-radius: ; add rounded border */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /*add background shadow */
+  /*add background color*/
+  /*border-radius: ; add rounded border*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /*add background shadow*/
 }
-/* logo edit */
+/*logo edit*/
 .logo img {
   max-width: 120px;
   height: 0;
@@ -108,14 +106,14 @@ header {
 .logo img:hover {
   transform: scale(5);
 }
-/* navbar */
+/*navbar*/
 .navmenu {
   display: flex;
 }
 .navmenu a {
   color: #2c2c2c;
   font-size: 16px;
-  /* text-transform: capitalize; */
+  /*text-transform: capitalize;*/
   padding: 10px 20px;
   font-weight: 400;
   transition: all 0.42s ease;
@@ -138,7 +136,7 @@ header {
   transform: scale(1.2);
   color: lightblue;
 }
-/* Might take this fake hamburger menu out */
+/*Might take this fake hamburger menu out*/
 #menu-icon {
   font-size: 35px;
   color: #2c2c2c;
@@ -149,8 +147,8 @@ header {
   color: lightblue;
   transform: lightblue;
 }
-/* End of Navbar */
-/* Footer */
+/*End of Navbar*/
+/*Footer*/
 .footer-container {
   background: linear-gradient(-135deg, rgb(24, 2, 217) 0%, rgb(248, 136, 229));
   padding-bottom: 4rem;
@@ -208,23 +206,23 @@ header {
   background-color: skyblue;
   transition: all 0.4s ease-out;
 }
-/* footer end */
-/* Media Quary */
-/* Phones */
+/*footer end*/
+/*Media Quary*/
+/*Phones*/
 @media only screen and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-    /* have to find more information on scroll behavior */
+    /*box-sizing: border-box;*/
+    /*have to find more information on scroll behavior*/
     scroll-behavior: smooth;
     font-family: "League Spartan", sans-serif;
-    /* Also find more info on list style */
+    /*Also find more info on list style*/
     list-style: none;
-    /* more info */
+    /*more info*/
     text-decoration: none;
   }
-  /* Hero Image */
+  /*Hero Image*/
   .hero-image {
     height: 50vh;
   }
@@ -235,7 +233,7 @@ header {
     font-size: 24px;
     padding: 5px;
   }
-  /* Product */
+  /*Product*/
   .product-grid {
     justify-content: center;
     gap: 10px;
@@ -258,7 +256,7 @@ header {
     width: 50%;
     margin: 10px auto;
   }
-  /* Start of Header */
+  /*Start of Header*/
   header {
     height: 8vh;
     padding: 10px 5%;
@@ -281,7 +279,7 @@ header {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  /* logo edit */
+  /*logo edit*/
   .logo img {
     max-width: 100px;
     height: 0;
@@ -304,7 +302,7 @@ header {
     right: 2rem;
     transition: 0.4s linear;
   }
-  /* navbar */
+  /*navbar*/
   .nav-icon {
     display: flex;
     align-items: center;
@@ -313,12 +311,12 @@ header {
     margin-right: 10px;
     font-size: 20px;
   }
-  /* Might take this fake hamburger menu out */
+  /*Might take this fake hamburger menu out*/
   #menu-icon {
     display: block;
   }
-  /* End of Navbar */
-  /* Footer */
+  /*End of Navbar*/
+  /*Footer*/
   .footer {
     height: auto;
     flex-direction: column;
