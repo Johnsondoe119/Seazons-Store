@@ -41,36 +41,3 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
-
-window.onload = function () {
-  fetch("products.json")
-    .then((response) => response.json())
-    .then((data) => {
-      let productHTML = "";
-      for (let i = 0; i < data.length; i++) {
-        let item = data[i];
-
-        let product = `<div class="new-arrival-item">
-        <span class="item-row-1">
-              <img src="${item.img_src}" alt="">
-            </span>
-              <span class="item-row-2">
-                <h2>${item.name}</h2>
-            </span>
-              <span class="item-row-3">
-                <h2>${item.description}</h2>
-            </span>
-             <span class="item-row-4">
-                <h2>${item.price}</h2>
-            </span>
-        
-        </div>
-        `;
-
-        productHTML += product;
-      }
-
-      let newArrivals = document.getElementsByClassName("new-arrival-items")[0];
-      newArrivals.innerHTML = productHTML;
-    });
-};

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Smiling World Set",
+    "description": "A comfortable and versatile set made from 100% cotton.",
+    "img_src": "products/product3.jpeg",
+    "price": 34.99
+  },
+  {
+    "name": "Red Dyed Jeans",
+    "description": "Stylish dyed jeans made from high-quality denim.",
+    "img_src": "products/dyejeans.png",
+    "price": 69.99
+  },
+  {
+    "name": "INB Hoodie",
+    "description": "Im Not Broke I Just Aint Got It Hoodie. Comes in blue and orange ",
+    "img_src": "products/Im Not Broke Hoodie.png",
+    "price": 44.99
+  },
+  {
+    "name": "Black LOF Hoodie",
+    "description": "Embroidered  heavy blen hoodie.",
+    "img_src": "products/Blackhoodie.png",
+    "price": 49.99
+  },
+  {
+    "name": "Fleece Jacket",
+    "description": "As well as being stylish, this jacket is very comfortable.",
+    "img_src": "products/BlueFleece.jpeg",
+    "price": 39.99
+  },
+  {
+    "name": "Black Crew Sweater",
+    "description": "A classic and stylish sweater made from soft and warm wool.",
+    "img_src": "products/Blackcrew.png",
+    "price": 89.99
+  },
+  {
+    "name": "LOF Purple flames",
+    "description": "Purple puff printed unisex set, Hoodie and tshirt.",
+    "img_src": "products/PurpleHoodie.png",
+    "price": 129.99
+  },
+  {
+    "name": "Womens Cargo",
+    "description": "A functional and stylish pair of pants with multiple pockets.",
+    "img_src": "products/womenset5.jpeg",
+    "price": 79.99
+  },
+  {
+    "name": "Womens ATLanta Sweatpants",
+    "description": "A classic and stylish red womens sweatpants.",
+    "img_src": "products/womenset4.jpeg",
+    "price": 44.99
+  },
+  {
+    "name": "Red Varsity Jacket",
+    "description": "A classic and stylish varsity jacketjacket made from durable denim.",
+    "img_src": "products/redJacket.png",
+    "price": 99.99
+  },
+  {
+    "name": "Crewneck Sweatshirt",
+    "description": "Another one of our top sellers, this set is made from 100% cotton.",
+    "img_src": "products/product2.jpeg",
+    "price": 29.99
+  },
+  {
+    "name": "Plaid Flannel Shirt",
+    "description": "A cozy and comfortable sweatshirt made from soft cotton.",
+    "img_src": "products/BlackLonsleeve.png",
+    "price": 19.99
+  }
+]
